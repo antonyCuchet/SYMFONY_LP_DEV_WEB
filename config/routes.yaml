@@ -1,0 +1,12 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app_container:
+    path: /container
+    controller: App\Controller\ContainerController::show
+
+app_containership:
+    path: /containership
+    controller: App\Controller\ContainershipController::show
+

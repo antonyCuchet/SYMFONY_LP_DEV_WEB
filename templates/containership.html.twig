@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+            {% for containership in containerships %}
+                    <p>{{ containership.id }},{{ containership.name }},{{ containership.captainName }},{{ containership.containerLimit }}</p>
+            {% endfor %}
+{% endblock %}

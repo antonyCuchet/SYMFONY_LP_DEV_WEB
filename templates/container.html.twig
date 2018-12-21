@@ -1,0 +1,6 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+            {% for container in containers %}
+                    <p>{{ container.id }},{{ container.color }},{{ container.containerModelId }},{{ container.containershipId }}</p>
+            {% endfor %}
+{% endblock %}
